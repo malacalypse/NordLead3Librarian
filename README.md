@@ -23,3 +23,12 @@ Version 1.0 is licensed under CC-BY-ND 4.0. Please read the LICENSE.txt file for
 1. In the MIDI menu, select "Fetch all from synth". 
 
 If the MIDI communications are successful, this should query the NL3 and retrieve all programs and performances from it. At this point you should absolutely make a backup of your synth's memory by saving (File->Save) what you've just loaded, before messing further with it. Then you can drag and drop, rename, reorder, import from other sysex files in part or completely, and do a variety of other operations to manage the sysex data. It should behave largely similarly to the Nord librarians provided for their newer synths. 
+
+### Notes
+
+Use with RTP-MIDI and the iConnectivity suite of products has some issues - you can successfully dump the MIDI from the synth without issues, but sending the larger chunks of MIDI via RTP-MIDI does not seem to work correctly. It is currently recommended to use a USB connection to any iConnectivity devices when sending banks to the NL3.
+
+#### Changelog
+
+- 1.0 (85) Initial release
+- 1.0.1 (93) Workarounds for issue with occasional malformed MIDIPackets from CoreMIDI (bad length)
