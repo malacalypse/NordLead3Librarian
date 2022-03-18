@@ -34,3 +34,4 @@ Use with RTP-MIDI and the iConnectivity suite of products has some issues - you 
 - 1.0.1 (93) Workarounds for issue with occasional malformed MIDIPackets from CoreMIDI (bad length)
 - 1.0.3 (97) Fix bug in pane-switching and add duplicate detection.
 - 1.0.4 (86) Fix 2 bugs, 1 with corrupted receive data, 1 with downloading individual banks.
+- 1.0.5 (87) Fix bug where importing names sometimes ended up with invisible null characters.
