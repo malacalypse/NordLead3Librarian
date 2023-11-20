@@ -8,6 +8,10 @@ Written in Swift. Universal binary, supports Apple Silicon (ARM64) as well as In
 
 Version 1.0 is licensed under CC-BY-ND 4.0. Please read the LICENSE.txt file for more information and a link to the full license text.
 
+# This project is no longer maintained
+
+As of November 2023 I have decided to no longer maintain this project. I intend to let it remain available as long as Github lets these free pages stay up, but I will not be releasing new versions of it, nor will I be responding to issues nor supporting it further.
+
 ## Installing
 
 1. Download the zip file and unzip it somewhere.
